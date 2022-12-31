@@ -1,11 +1,12 @@
 import React from 'react';
-import Layout from '../components/Layout';
+import Typography from '../styles/Typography';
 
 function OrdersPage() {
   return (
-    <Layout>
+    <>
+      <Typography />
       <p>Hey! I'm The Order Page</p>
-    </Layout>
+    </>
   );
 }
 

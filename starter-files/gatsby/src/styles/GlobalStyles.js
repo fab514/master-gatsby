@@ -42,7 +42,7 @@ const GlobalStyles = createGlobalStyle`
     }
   }
 
-  .gatsby-image-wrapper img[src*=base64\\] {
+  .gatsby-image-wrapper img[src*=base64] {
     image-rendering: -moz-crisp-edges;
     image-rendering: pixelated;
   }
@@ -75,7 +75,7 @@ const GlobalStyles = createGlobalStyle`
     max-width: 100%;
   }
 
-  .tilt {
+  &&.tilt {
     transform: rotate(-2deg);
     position: relative;
     display: inline-block;
